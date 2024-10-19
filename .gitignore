@@ -1,0 +1,54 @@
+# Python 관련 파일들
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# 가상 환경 관련
+venv/
+env/
+.venv/
+.env/
+Pipfile.lock
+pyvenv.cfg
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints
+
+# VSCode 관련 설정 파일들
+.vscode/
+*.code-workspace
+
+# 운영체제에서 생성하는 불필요한 파일들
+.DS_Store
+Thumbs.db
+
+# 파이썬 패키지 관리
+*.pyo
+*.pyd
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 테스트 관련
+.tox/
+.nox/
+.coverage
+*.cover
+coverage.xml
+*.log
+
+# MyPy와 같은 타입 체크 관련
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest 관련
+.pytest_cache/
