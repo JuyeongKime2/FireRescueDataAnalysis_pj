@@ -25,6 +25,12 @@ pyvenv.cfg
 # VSCode 관련 설정 파일들
 .vscode/
 *.code-workspace
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode-test/
+.vscode/extensions/
 
 # 운영체제에서 생성하는 불필요한 파일들
 .DS_Store
@@ -52,3 +58,7 @@ dmypy.json
 
 # Pytest 관련
 .pytest_cache/
+
+# 환경 설정 파일
+.envrc
+*.env
